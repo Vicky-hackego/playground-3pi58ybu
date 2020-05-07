@@ -2,3 +2,10 @@ title: Simple Python Template
 plan:
 - title: Python Snippet
   statement: statement.md
+  
+# Settings for your programming projects and the associated Docker images
+projects:
+  python:
+    root: /python-project # Set the root path to your Python project
+    buildCommand: pip3 install numpy
+    runner: python:3
