@@ -5,9 +5,11 @@ Deux méthode d'intégration sont proposée :
 * la méthode d'Euler (la plus simple)
 * la méthode de Runge Kutta d'ordre 4 (la plus performante)
 
+Cette simulation présente unscénario plutôt pessimiste, pour lequel le déconfinement provoque une deuxième vague suite à une remontée du taux de contagion R au dessus de 1.  
+
 @[Covid 19]({"stubs": ["test.py"], "command": "python3 test.py"})
 
 
 # Exercice
 
-Comparer les résultats des deux méthodes avec différentes valeurs de subdivisions
+Comparer les résultats des deux méthodes d'intégration avec différentes valeurs de subdivisions.
