@@ -74,4 +74,6 @@ plt.legend(loc=0)
 plt.grid()
 plt.show()
 fig.savefig('output.png', dpi=fig.dpi)
+for k,_ in enumerate(t):
+    print("%d %3.5f %3.5f %3.5f %3.5f %3.5f %3.5f"%(k,s[k],e[k],i[k],h[k],r[k],d[k]))
 print("TECHIO> open -s /project/target index.html")
