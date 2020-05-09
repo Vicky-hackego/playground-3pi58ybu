@@ -1,10 +1,13 @@
-# Bojour!
+# Bonjour!
 
-This Python template lets you get started quickly with a simple one-page playground.
+Ce programme est une simulation de l'épidémie de covid19 sur base d'un modèle différentiel SIR modifié.
+Deux méthode d'intégration sont proposée :
+* la méthode d'Euler (la plus simple)
+* la méthode de Runge Kutta d'ordre 4 (la plus performante)
 
-@[Testons!]({"stubs": ["test.py"], "command": "python3 test.py"})
+@[Covid 19]({"stubs": ["test.py"], "command": "python3 test.py"})
 
 
-# Advanced usage
+# Exercice
 
-If you want a more complex example (external libraries, viewers...), use the [Advanced Python template](https://tech.io/select-repo/429)
+Comparer les résultats des deux méthodes avec différentes valeurs de subdivisions
