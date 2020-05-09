@@ -7,5 +7,5 @@ plan:
 projects:
   python:
     root: / # Set the root path to your Python project
-    buildCommand: pip3 install numpy
+    buildCommand: pip3 install numpy matplotlib
     runner: python:3
