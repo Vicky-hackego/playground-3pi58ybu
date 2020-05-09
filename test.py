@@ -7,7 +7,7 @@ sub = 1 #subdvision
 integrator = 'RK4'#Methode d'intégration : Euler ou RK4
 R0 = 4.0 #R0 : taux de reproduction initial
 Rc = 0.8 #Rc : taux de reproduction  en confinement
-Rd = 0.95 #Rc : taux de reproduction  en déconfinement
+Rd = 1.2 #Rd : taux de reproduction  en déconfinement
 tc = 20 #jour du confinement
 td = 60 #jour du déconfinement
 te = 6 #temps d'incubation
@@ -16,7 +16,7 @@ th = 20 #temps d'hospitalisation
 tr = 180 #durée d'immunisation
 k = 0.1 #proportion détectée
 dr0 = 0.05*k #taux de mortalité
-ir = 0.01 #portion contaminée au départ 
+ir = 0.001 #portion contaminée au départ 
 
 # Part réelle d'hospitalisation des malades (Belgique : 50% des cas détectés)
 hr = 0.5*k
