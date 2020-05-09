@@ -1,11 +1,11 @@
-title: Simple Python Template
+title: Simulation covid19
 plan:
 - title: Python Snippet
   statement: statement.md
-  
-# Settings for your programming projects and the associated Docker images
 projects:
   python:
-    root: / # Set the root path to your Python project
     buildCommand: pip3 install numpy matplotlib
-    runner: python:3
+    root: /
+    runner:
+      name: python
+      version: '3'
